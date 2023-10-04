@@ -15,9 +15,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <html lang='en'>
       <body className={`${inter.className} bg-zinc-900 text-slate-200`}>
         {/* Header  */}
-        {/* <Header /> */}
+        <Header />
         {/* Prompt Input  */}
-        <PromptInput />
+        <PromptInput body='Default Prompt Body' />
         {children}
       </body>
     </html>

@@ -23,7 +23,7 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "noImplicitAny": false,
-    "noImplicitThis": true,
+    "noImplicitThis": false,
     "sourceMap": true,
     "strictNullChecks": false,
     // "target": "ES2015",
